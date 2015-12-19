@@ -17,5 +17,4 @@ defmodule Exercise1 do
 end
 
 input = File.read! "input"
-IO.puts is_binary(input)
 IO.puts Exercise1.walk(input)
