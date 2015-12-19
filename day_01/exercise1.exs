@@ -1,4 +1,4 @@
-defmodule Basement do
+defmodule Exercise1 do
 	def walk(input) do
 		walk(input, 0)
 	end
@@ -18,4 +18,4 @@ end
 
 input = File.read! "input"
 IO.puts is_binary(input)
-IO.puts Basement.walk(input)
+IO.puts Exercise1.walk(input)
